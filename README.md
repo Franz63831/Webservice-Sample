@@ -1,8 +1,8 @@
 # Webservice-Sample
 
-In diesem Beispiele werden Bankinfos anhand der übergebenen BLZ über einen freien Webservice ermittelt und angezeigt.
-Das Beispiel beschränkt sich auf den Bankname, weitere Infos zur Bank sind möglich (siehe dazu GETBANK)
-Aufruf: call TestBank ('79570051')   <-- Deutsche Bank, Aschaffenburg
+In diesem Beispiel werden Bankinfos anhand der übergebenen BLZ über einen freien Webservice ermittelt und angezeigt.
+Mein Beispiel beschränkt sich auf den Bankname, weitere Infos zur Bank sind möglich (siehe dazu GETBANK)
+möglicher Aufruf: call TestBank ('79570051')   <-- Deutsche Bank, Aschaffenburg
 
 
 TESTBANK:
