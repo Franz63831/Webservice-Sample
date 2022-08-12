@@ -3,6 +3,8 @@
                  BNDDIR('BANK')  ;
       //-----------------------------------------------------------------------
       // Banknamen mittels der BLZ prüfen/holen
+      // in diesem Beispiel wird nur der Bankname ermittelt,
+      // weitere Infos zur Bank sind abfragbar -- siehe GETBANK.
       //-----------------------------------------------------------------------
 
       // Main
@@ -16,7 +18,7 @@
           CmdLen                            packed(15:5) const ;
         END-PR;
 
-        dcl-PR getBankName                  char(50) ExtProc;
+        dcl-PR getBank                      char(50) ExtProc;
           *N                                like(ppBLZ);
           *N                                char(1) Const options(*NOPASS);
         end-pr;
