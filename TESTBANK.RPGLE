@@ -2,7 +2,7 @@
         ctl-opt  Debug Option(*NODEBUGIO)
                  BNDDIR('BANK')  ;
       //-----------------------------------------------------------------------
-      // Banknamen mittels der BLZ prüfen/holen
+      // Banknamen mittels der BLZ prüfen/holen  
       // in diesem Beispiel wird nur der Bankname ermittelt,
       // weitere Infos zur Bank sind abfragbar -- siehe GETBANK.
       //-----------------------------------------------------------------------
