@@ -6,6 +6,7 @@
 
       //--------------------------------------------------------------------
       // get BankInfos
+      // Infos zu einer Bank (einer BLZ) auslesen; im Beispiel der Bankname
       //--------------------------------------------------------------------
 
          dcl-ds  DsData      qualified inz;
@@ -166,7 +167,7 @@
       //--------------------------------------------------------------------
 
          dcl-proc getSoapTemplate;
-         dcl-pi *n                               like(glbTemplate) rtnparm;
+         dcl-pi *n                               like(glbTemplate) rtnparm; 
            piBLZ                                 like(glbBLZ) const options(*trim);
          end-pi;
 
