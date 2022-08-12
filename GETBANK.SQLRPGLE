@@ -7,7 +7,7 @@
       //--------------------------------------------------------------------
       // get BankInfos
       // Infos zu einer Bank (einer BLZ) auslesen; im Beispiel der Bankname
-      //--------------------------------------------------------------------
+      //--------------------------------------------------------------------   
 
          dcl-ds  DsData      qualified inz;
            Bezeichnung                           varchar(50);
